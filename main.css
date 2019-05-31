@@ -1,0 +1,123 @@
+span {
+    margin: 10px;
+  }
+  
+  body {
+    background: #F8FAFC;
+  }
+ 
+  .circle-1 {
+    display: inline-block;
+    padding: 15px 22px;
+    background: #3182CE;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+  }
+  .circle-2, .circle-3 {
+    display: inline-block;
+    padding: 15px 22px;
+    background:#8795A1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+  
+  html {
+    font-family: 'Lato', sans-serif;
+  }
+  h1 {
+      font-size: 10px;
+      font-family: Lato, sans-serif;
+      width: 20px;
+      height: 10px;
+  }
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .form-field input {
+    border: 0;
+    background: #ddd;
+    padding:.5rem;
+    border-radius: 3px
+
+  }
+
+  .form-field label {
+    margin-bottom: .25rem
+  }
+
+  form {
+      padding: 1rem 1.5rem;
+      background: #ffff;
+      border-radius: 1px;
+      box-shadow: 0 4px 4px 0 rgba(135,149,161,0.50);
+      
+  }
+  form button {
+    padding: .5rem .75rem;
+    font-size: 16px;
+     background: #3182CE;
+     color: white;
+     margin-left: 75%;
+     border: 0;
+   }
+
+   .contact-section {
+    border: 1px;
+    padding: 20px 0;
+    display: flex;
+   }
+
+   .circle h1 {
+       text-align: center;
+       display: flex;
+       flex-direction: row;
+   }
+
+   .circle-4, .circle-5 {
+    display: inline-block;
+    padding: 15px 22px;
+    background: #3182CE;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+  }
+  .circle-6 {
+    display: inline-block;
+    padding: 15px 22px;
+    background:#8795A1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+  }
+
+  .circle-grid {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-grid {
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-1 {
+  margin-right: 100%;
+  margin-top: -9%;
+  }
+
+  .steps .circle-grid {
+
+    display: flex;
+  }
+
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
